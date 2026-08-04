@@ -1,0 +1,11 @@
+`include "disciplines.vams"
+
+module my_resistor(p,n);
+	inout p, n;
+	electrical p, n;
+	parameter real r=1k;
+
+	analog begin
+		I(p,n) <+ V(p,n) / r;
+	end
+endmodule

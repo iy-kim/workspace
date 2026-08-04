@@ -1,0 +1,27 @@
+//A Practical Guide to Verilog-A by Slobodan Mijalkovic
+
+/*Careful space, letters, digits, dollar signs($), underscore*/
+/* \5$+$velocity */ // letter, digit, or graphic character
+//`define M_PI 3.14159265358978323845
+
+//$finish;
+//$display ("display a message");
+
+//`define 
+//`undef
+//`default_transition `else `endif 
+//`ifdef
+//`include `elsif
+//`d `D `sd `Sd `sD `SD
+//`o `O `so `So `sO `SO
+//`h `H `sh `Sh `sH `SH
+
+//p56
+//module test0 (a, b, c, d, out0)
+//	inout a, b, c, d;
+//	output out0;
+//endmodule
+
+$display("Hello VA")
+5'D3
+\o \oo \ooo
